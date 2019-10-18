@@ -14,7 +14,7 @@ use WaughJ\FlatToHierarchySorter\HierarchicalNode;
         new HierarchicalNode( 2, 1 ),
         new HierarchicalNode( 3, 1 ),
         new HierarchicalNode( 4, 2 )
-    ]
+    ];
     $sorted_list = FlatToHierarchySorter::sort( $old_list );
 
 will return to equivalent of:
@@ -27,7 +27,7 @@ will return to equivalent of:
             new HierarchicalNode( 2, 1, [ new HierarchicalNode( 4, 2 ) ] ),
             new HierarchicalNode( 3, 1 )
         ]
-    )
+    );
 
 ## Changelog
 
