@@ -5,8 +5,8 @@ Sorts flat list of nodes with IDs and parent IDs into layered list of nodes with
 
 ## Example
 
-use WaughJ\FlatToHierarchySorter\FlatToHierarchySorter;
-use WaughJ\FlatToHierarchySorter\HierarchicalNode;
+    use WaughJ\FlatToHierarchySorter\FlatToHierarchySorter;
+    use WaughJ\FlatToHierarchySorter\HierarchicalNode;
 
     $old_list =
     [
