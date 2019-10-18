@@ -1,0 +1,24 @@
+{
+    "name": "waughj/flat-to-hierarchy-sorter",
+    "description": "Sorts flat list of nodes into hierarchy.",
+    "keywords": [ "hierarchy", "converter", "organizer", "sorter" ],
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Jaimeson Waugh",
+            "email": "waughjai@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.2"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WaughJ\\FlatToHierarchySorter\\": "src/"
+        }
+    }
+}
